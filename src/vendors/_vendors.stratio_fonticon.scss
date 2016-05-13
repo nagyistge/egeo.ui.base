@@ -24,7 +24,7 @@ $egeo-stratio-icons: true !default;
 	}
 }
 
-if $egeo-stratio-icons {
+@if $egeo-stratio-icons {
     @font-face {
         font-family: 'ico_stratio';
         src:url($egeo-fontface-src + '/stratio-fonticon/ico_stratio.eot?du19jz');
