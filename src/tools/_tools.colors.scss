@@ -57,7 +57,7 @@
 				$result: map-get($egeo-colors, $color);
 			} @else {
 				@if function-exists(egeo-log) {
-					@if egeo-log('@egeo-get-color::The color #{color} not exist in $egeo-colors.', $egeo-log-warn) {}
+					@if egeo-log('@egeo-get-color::The color #{$color} not exist in $egeo-colors.', $egeo-log-warn) {}
 				}
 			}
 		} @else {
